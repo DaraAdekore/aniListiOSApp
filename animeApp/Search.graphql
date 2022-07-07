@@ -1,0 +1,14 @@
+query searchAnime($search: String)  {
+  Page {
+    media(search: $search) {
+      title {
+        english
+        native
+        romaji
+      }
+      coverImage {
+        medium
+      }
+    }
+  }
+}

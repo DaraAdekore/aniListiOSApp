@@ -128,14 +128,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         loadData(search:searchBar.text!)
+        self.view.endEditing(true)
     }
     
     
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         self.tableView.endEditing(true)
-        filteredData = []
-        self.tableView.reloadData()
     }
     
     

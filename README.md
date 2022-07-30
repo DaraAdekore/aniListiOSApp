@@ -6,6 +6,7 @@ An app utilizing <a href="https://anilist.co/home">Anilist</a> GraphQL API and S
 <div display="flex" justify-content="center">
 
 <div>
+<img src="https://i.imgur.com/slnI2SH.png" width="auto" height="300">
 <img src="https://i.imgur.com/veY3dCE.png" width="auto" height="300">
 <img src="https://i.imgur.com/9s9HW8F.png" width="auto" height="300">
 <img src="https://i.imgur.com/HOFaPw5.png" width="auto" height="300">
